@@ -23,4 +23,4 @@ UserSchema.pre('save', function(next){
 
 UserSchema.index({location: '2dsphere'});
 
-module.exports = mongoose.model('map-user', UserSchema);
+module.exports = mongoose.model('scotch-users', UserSchema);
