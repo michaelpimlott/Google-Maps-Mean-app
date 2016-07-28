@@ -4,20 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-
+    <title>That Map App</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script> -->
-    <script src="../bower_components/holderjs/holder.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuZQ2gMz4OFXe_i87WBlJmgZLALLeg31Y"></script>
 
     <script src="../bower_components/modernizr/bin/modernizr"></script>
 
-    <script src="../bower_components/jquery/jquery.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/angular/angular.js"></script>
     <script src="../bower_components/angular-route/angular-route.js"></script>
     <script src="../bower_components/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
@@ -29,7 +27,7 @@
             <li active><a href="">Join the Team</a></li>
             <li disabled><a href="">Find Teammates</a></li>
           </ul>
-          <h3 class="text-muted">That Map App</h3>
+          <h1 class="text-muted"><i class="fa fa-map-o"></i> That Map</h1>
       </div>
 
       <div class="row content">
@@ -39,13 +37,13 @@
         <div class="col-md-5">
             <div class="panel panel-default">
               <div class="panel-heading">
-                    <h2 class="panel-title text-center">Get in Here! <span class="glyphicon glyphicon-map-marker"></span></h2>
+                    <h2 class="panel-title text-center">Get in There!<span class="glyphicon glyphicon-map-marker"></span></h2>
                 </div>
                 <div class="panel-body">
                     <form name ="addForm" novalidate>
                       <div class="form-group">
                             <label for="username">Username <span class="badge">All fields required</span></label>
-                            <input type="text" class="form-control" id="username" placeholder="OldandGold" ng-model="formData.username" required>
+                            <input type="text" class="form-control" id="username" placeholder="Map Man" ng-model="formData.username" required>
                         </div>
                         <label class="radio control-label">Gender</label>
                         <div class="radio">
@@ -63,16 +61,16 @@
                         <div class="radio">
                             <label>
                                 <input type="radio" name="optionsRadios" id="radioother" value="What's it to ya?" ng-model="formData.gender">
-                                What's it to ya?
+                                Who cares?
                             </label>
                         </div>
                         <div class="form-group">
                             <label for="age">Age</label>
-                            <input type="number" class="form-control" id="age" placeholder="72" ng-model="formData.age" required>
+                            <input type="number" class="form-control" id="age" placeholder="50ish" ng-model="formData.age" required>
                         </div>
                         <div class="form-group">
                             <label for="language">Favorite Language</label>
-                            <input type="text" class="form-control" id="language" placeholder="Fortran" ng-model="formData.favlang" required>
+                            <input type="text" class="form-control" id="language" placeholder="Latin?" ng-model="formData.favlang" required>
                         </div>
                         <div class="form-group">
                             <label for="latitude">Latitude</label>
