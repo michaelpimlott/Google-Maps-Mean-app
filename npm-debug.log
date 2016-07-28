@@ -1,0 +1,272 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.2.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angularjs
+20 silly mapToRegistry name angularjs
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'angularjs',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'angularjs',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/angularjs
+25 silly fetchNamedPackageData jquery
+26 silly mapToRegistry name jquery
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'jquery',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'jquery',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/jquery
+31 verbose request uri https://registry.npmjs.org/angularjs
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 5:28:13 PM
+34 verbose request id cb1d7b93759c5591
+35 http request GET https://registry.npmjs.org/angularjs
+36 verbose request uri https://registry.npmjs.org/jquery
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 5:28:13 PM
+39 verbose etag "9PAI0RHWAG9WK5PVMEGI567QM"
+40 http request GET https://registry.npmjs.org/jquery
+41 http 200 https://registry.npmjs.org/jquery
+42 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 verbose headers   etag: '"EKL6R6CS9DA9UZMD3TQMLLYOF"',
+42 verbose headers   'content-type': 'application/json',
+42 verbose headers   'content-encoding': 'gzip',
+42 verbose headers   'cache-control': 'max-age=300',
+42 verbose headers   'content-length': '11218',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   date: 'Thu, 28 Jul 2016 00:28:12 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   age: '297',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-sjc3141-SJC',
+42 verbose headers   'x-cache': 'HIT',
+42 verbose headers   'x-cache-hits': '1',
+42 verbose headers   'x-timer': 'S1469665692.781366,VS0,VE0',
+42 verbose headers   vary: 'Accept-Encoding' }
+43 silly get cb [ 200,
+43 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 silly get     etag: '"EKL6R6CS9DA9UZMD3TQMLLYOF"',
+43 silly get     'content-type': 'application/json',
+43 silly get     'content-encoding': 'gzip',
+43 silly get     'cache-control': 'max-age=300',
+43 silly get     'content-length': '11218',
+43 silly get     'accept-ranges': 'bytes',
+43 silly get     date: 'Thu, 28 Jul 2016 00:28:12 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     age: '297',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-sjc3141-SJC',
+43 silly get     'x-cache': 'HIT',
+43 silly get     'x-cache-hits': '1',
+43 silly get     'x-timer': 'S1469665692.781366,VS0,VE0',
+43 silly get     vary: 'Accept-Encoding' } ]
+44 verbose get saving jquery to /Users/michaelpimlott/.npm/registry.npmjs.org/jquery/.cache.json
+45 verbose correctMkdir /Users/michaelpimlott/.npm correctMkdir not in flight; initializing
+46 silly resolveWithNewModule jquery@2.1.4 checking installable status
+47 silly cache add args [ 'jquery@~2.1.3', null ]
+48 verbose cache add spec jquery@~2.1.3
+49 silly cache add parsed spec Result {
+49 silly cache add   raw: 'jquery@~2.1.3',
+49 silly cache add   scope: null,
+49 silly cache add   name: 'jquery',
+49 silly cache add   rawSpec: '~2.1.3',
+49 silly cache add   spec: '>=2.1.3 <2.2.0',
+49 silly cache add   type: 'range' }
+50 silly addNamed jquery@>=2.1.3 <2.2.0
+51 verbose addNamed ">=2.1.3 <2.2.0" is a valid semver range for jquery
+52 silly addNameRange { name: 'jquery', range: '>=2.1.3 <2.2.0', hasData: false }
+53 silly mapToRegistry name jquery
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'jquery',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'jquery',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/jquery
+58 verbose addNameRange registry:https://registry.npmjs.org/jquery not in flight; fetching
+59 verbose get https://registry.npmjs.org/jquery not expired, no request
+60 silly addNameRange number 2 { name: 'jquery', range: '>=2.1.3 <2.2.0', hasData: true }
+61 silly addNameRange versions [ 'jquery',
+61 silly addNameRange   [ '1.5.1',
+61 silly addNameRange     '1.6.2',
+61 silly addNameRange     '1.6.3',
+61 silly addNameRange     '1.7.2',
+61 silly addNameRange     '1.7.3',
+61 silly addNameRange     '1.8.2',
+61 silly addNameRange     '1.8.3',
+61 silly addNameRange     '2.1.0-beta2',
+61 silly addNameRange     '2.1.0-beta3',
+61 silly addNameRange     '1.11.0-beta3',
+61 silly addNameRange     '1.11.0-rc1',
+61 silly addNameRange     '2.1.0-rc1',
+61 silly addNameRange     '1.11.0',
+61 silly addNameRange     '2.1.0',
+61 silly addNameRange     '2.1.1-beta1',
+61 silly addNameRange     '1.11.1-beta1',
+61 silly addNameRange     '2.1.1-rc1',
+61 silly addNameRange     '1.11.1-rc1',
+61 silly addNameRange     '2.1.1-rc2',
+61 silly addNameRange     '1.11.1-rc2',
+61 silly addNameRange     '2.1.1',
+61 silly addNameRange     '1.11.1',
+61 silly addNameRange     '1.9.1',
+61 silly addNameRange     '2.1.2',
+61 silly addNameRange     '1.11.2',
+61 silly addNameRange     '2.1.3',
+61 silly addNameRange     '2.1.4',
+61 silly addNameRange     '1.11.3',
+61 silly addNameRange     '3.0.0-alpha1',
+61 silly addNameRange     '1.12.0',
+61 silly addNameRange     '2.2.0',
+61 silly addNameRange     '3.0.0-beta1',
+61 silly addNameRange     '1.12.1',
+61 silly addNameRange     '2.2.1',
+61 silly addNameRange     '1.12.2',
+61 silly addNameRange     '2.2.2',
+61 silly addNameRange     '1.12.3',
+61 silly addNameRange     '2.2.3',
+61 silly addNameRange     '1.12.4',
+61 silly addNameRange     '2.2.4',
+61 silly addNameRange     '3.0.0-rc1',
+61 silly addNameRange     '3.0.0',
+61 silly addNameRange     '3.1.0' ] ]
+62 silly addNamed jquery@2.1.4
+63 verbose addNamed "2.1.4" is a plain semver version for jquery
+64 silly mapToRegistry name jquery
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'jquery',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   name: 'jquery',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri https://registry.npmjs.org/jquery
+69 verbose addRemoteTarball https://registry.npmjs.org/jquery/-/jquery-2.1.4.tgz not in flight; adding
+70 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-2.1.4.tgz',
+70 verbose addRemoteTarball   '228bde698a0c61431dc2630a6a154f15890d2317' ]
+71 info retry fetch attempt 1 at 5:28:13 PM
+72 info attempt registry request try #1 at 5:28:13 PM
+73 http fetch GET https://registry.npmjs.org/jquery/-/jquery-2.1.4.tgz
+74 http fetch 200 https://registry.npmjs.org/jquery/-/jquery-2.1.4.tgz
+75 http 200 https://registry.npmjs.org/angularjs
+76 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+76 verbose headers   etag: '"57KX7CSU3AHSMJVRGU0IFXSZC"',
+76 verbose headers   'content-type': 'application/json',
+76 verbose headers   'content-encoding': 'gzip',
+76 verbose headers   'cache-control': 'max-age=300',
+76 verbose headers   'content-length': '804',
+76 verbose headers   'accept-ranges': 'bytes',
+76 verbose headers   date: 'Thu, 28 Jul 2016 00:28:12 GMT',
+76 verbose headers   via: '1.1 varnish',
+76 verbose headers   age: '0',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+76 verbose headers   'x-cache': 'MISS',
+76 verbose headers   'x-cache-hits': '0',
+76 verbose headers   'x-timer': 'S1469665692.781622,VS0,VE131',
+76 verbose headers   vary: 'Accept-Encoding' }
+77 silly get cb [ 200,
+77 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+77 silly get     etag: '"57KX7CSU3AHSMJVRGU0IFXSZC"',
+77 silly get     'content-type': 'application/json',
+77 silly get     'content-encoding': 'gzip',
+77 silly get     'cache-control': 'max-age=300',
+77 silly get     'content-length': '804',
+77 silly get     'accept-ranges': 'bytes',
+77 silly get     date: 'Thu, 28 Jul 2016 00:28:12 GMT',
+77 silly get     via: '1.1 varnish',
+77 silly get     age: '0',
+77 silly get     connection: 'keep-alive',
+77 silly get     'x-served-by': 'cache-sjc3123-SJC',
+77 silly get     'x-cache': 'MISS',
+77 silly get     'x-cache-hits': '0',
+77 silly get     'x-timer': 'S1469665692.781622,VS0,VE131',
+77 silly get     vary: 'Accept-Encoding' } ]
+78 verbose get saving angularjs to /Users/michaelpimlott/.npm/registry.npmjs.org/angularjs/.cache.json
+79 verbose correctMkdir /Users/michaelpimlott/.npm correctMkdir not in flight; initializing
+80 silly fetchPackageMetaData Error: No compatible version found: angularjs@~1.3.15
+80 silly fetchPackageMetaData Valid install targets:
+80 silly fetchPackageMetaData 0.0.1
+80 silly fetchPackageMetaData
+80 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:157:16)
+80 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+80 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+80 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+80 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+80 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+80 silly fetchPackageMetaData  error for angularjs@~1.3.15 Error: No compatible version found: angularjs@~1.3.15
+80 silly fetchPackageMetaData Valid install targets:
+80 silly fetchPackageMetaData 0.0.1
+80 silly fetchPackageMetaData
+80 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:157:16)
+80 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+80 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+80 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+80 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+80 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:117:15)
+81 silly fetchAndShaCheck shasum 228bde698a0c61431dc2630a6a154f15890d2317
+82 verbose addTmpTarball /var/folders/n0/89zmm55j3kq3ctzdt6g6b4g80000gn/T/npm-43430-0f3e2877/registry.npmjs.org/jquery/-/jquery-2.1.4.tgz not in flight; adding
+83 verbose addTmpTarball already have metadata; skipping unpack for jquery@2.1.4
+84 verbose correctMkdir /Users/michaelpimlott/.npm correctMkdir not in flight; initializing
+85 silly cache afterAdd jquery@2.1.4
+86 verbose afterAdd /Users/michaelpimlott/.npm/jquery/2.1.4/package/package.json not in flight; writing
+87 verbose correctMkdir /Users/michaelpimlott/.npm correctMkdir not in flight; initializing
+88 verbose afterAdd /Users/michaelpimlott/.npm/jquery/2.1.4/package/package.json written
+89 silly rollbackFailedOptional Starting
+90 silly rollbackFailedOptional Finishing
+91 silly runTopLevelLifecycles Starting
+92 silly runTopLevelLifecycles Finishing
+93 silly install printInstalled
+94 verbose stack Error: No compatible version found: angularjs@~1.3.15
+94 verbose stack Valid install targets:
+94 verbose stack 0.0.1
+94 verbose stack
+94 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:157:16)
+94 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+94 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+94 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+94 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+94 verbose stack     at FSReqWrap.oncomplete (fs.js:117:15)
+95 verbose cwd /Users/michaelpimlott/workspace/MEANMap
+96 error Darwin 15.4.0
+97 error argv "/usr/local/Cellar/node/6.2.0/bin/node" "/usr/local/bin/npm" "install"
+98 error node v6.2.0
+99 error npm  v3.8.9
+100 error No compatible version found: angularjs@~1.3.15
+100 error Valid install targets:
+100 error 0.0.1
+101 error If you need help, you may report this error at:
+101 error     <https://github.com/npm/npm/issues>
+102 verbose exit [ 1, true ]
