@@ -26,4 +26,27 @@ module.exports = function(app) {
         res.json(req.body);
     });
   });
+  app.post('/query/', function(req, res){
+    var lat = req.body.latitude;
+    var long = req.body.longitude;
+    var distance = req.body.distance;
+
+    var query = User.find({});
+
+    if(distance){
+      query = query.where('location').near({ center: {type: 'Point', coordinates: [long, lat]}
+
+      maxDistance: distance * 1609.34, spherical: true});
+
+    }
+    query.exec(function(err, users){
+        if(err)
+            res.send(err);
+
+            res.json(users);
+    });
+});
+
+
+
 };
